@@ -1,0 +1,66 @@
+header {
+    background-image: linear-gradient(to bottom, #f5f7fa, #fff);
+}
+
+.head-open {
+    display: flex;
+    padding-top: 55px;
+    padding-bottom: 70px;
+}
+
+.text-side {
+    padding: 0 20px;
+}
+
+.image-side {
+    padding: 0 40px;
+}
+
+.image-side img{
+    width: 45vw;
+    border-radius: 5px;
+}
+
+.jcoppola {
+    display: flex;
+    margin: 25px 0;
+}
+
+.jcoppola img {
+    width: 50px;
+    border-radius: 25px;
+    margin: auto 0;
+}
+
+.name, .date{
+    margin: auto 0;
+}
+
+.name {
+    padding-left: 30px;
+}
+
+.date {
+    padding-left: 20px;
+}
+
+.head-statement h1 {
+    width: 400px;
+    font-size: 36px;
+}
+
+.crumb {
+    margin: 21px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgb(55, 55, 83);
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.head-paragraph {
+    padding: 0 130px;
+}
+.head-paragraph p {
+    padding: 12px 0;
+}

@@ -1,0 +1,65 @@
+nav {
+    background: #fff;
+    padding: 8px 120px;
+    display: flex;
+}
+
+nav img {
+    width: 165px;
+}
+.logo {
+    flex: 0.35;
+}
+
+.nav-items {
+    flex: 1;
+    transform: translate(-50px);
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.product, .use-cases, .compare-us, .pricing, .resources {
+    padding: 0 5px;
+    margin: auto;
+}
+
+nav a {
+    font-size: 16px;
+    text-align: start;
+    line-height: 24px;
+    vertical-align: baseline;
+    font-weight: 400;
+    margin: auto;
+    color: rgb(29, 28, 57);
+}
+.nav-items i {
+    margin: auto;
+    font-size: 10px;
+}
+
+.login-section a {
+    padding: 0 10px;
+}
+
+.login-section button {
+    padding: 0 10px;
+    width: 8vw;
+    height: 5vh;
+    border: none;
+    background: #895ef7;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+}
+
+.login-section button:hover {
+    text-decoration: underline;
+}
+
+.login-section {
+    margin: auto;
+}
