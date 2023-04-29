@@ -1,3 +1,4 @@
+/* 
 nav {
     background: #fff;
     padding: 8px 120px;
@@ -43,6 +44,83 @@ nav a {
 .login-section a {
     padding: 0 10px;
 }
+
+.login-section button {
+    padding: 0 10px;
+    width: 8vw;
+    height: 5vh;
+    border: none;
+    background: #895ef7;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+}
+
+.login-section button:hover {
+    text-decoration: underline;
+}
+
+.login-section {
+    margin: auto;
+} */
+
+.nav-container {
+    display: flex;
+    height: 10vh;
+}
+
+.logo img {
+    width: 170px;
+    padding: auto;
+}
+
+.logo {
+    /* background: red; */
+    margin: auto;
+    padding-left: 125px;
+}
+
+.nav-items {
+    display: flex;
+    padding: 0 30px;
+    margin: auto;
+    transform: translateX(-80px);
+}
+
+.nav-items div {
+    padding: 0 10px;
+}
+
+.nav-items div a {
+    color: rgb(29,28,57);
+}
+
+.nav-items i {
+    margin: auto;
+    font-size: 10px;
+}
+
+.nav-items div {
+    padding: 20px;
+}
+
+/* LOGIN */
+
+.login-section {
+    margin: auto;
+    transform: translateX(-100px);
+}
+
+.login-section a {
+    padding: 0 10px;
+}
+
+.login-section button {
+    margin: 0 10px;
+}
+
+/* BUTTON */
 
 .login-section button {
     padding: 0 10px;
